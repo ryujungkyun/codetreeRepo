@@ -26,6 +26,7 @@ public class Main {
 
         double avg = (double) sum / cnt; 
         
+        // 소수 첫째자리까지 출력해야함 
         System.out.printf("%d %.1f\n", sum, avg);
 
     }
